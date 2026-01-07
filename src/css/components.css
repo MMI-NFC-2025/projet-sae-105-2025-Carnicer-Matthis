@@ -284,6 +284,20 @@
     margin-top: var(--spacing-xl);
 }
 
+/* === INTRO TEXT === */
+
+.intro-text {
+    padding: var(--spacing-lg) var(--spacing-md);
+    max-width: 393px;
+    margin: 0 auto;
+}
+
+.intro-text p {
+    text-align: center;
+    line-height: var(--line-height-relaxed);
+    margin: 0;
+}
+
 /* === CARD === */
 
 .card {
