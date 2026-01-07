@@ -3,8 +3,9 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Carnicer
+- PRÉNOM : Matthis
+- GROUPE : C1
 - URL du site :
 - URL FIGMA :
+

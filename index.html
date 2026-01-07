@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lumière sur Elles - Découvrez les femmes qui ont marqué l'histoire de la science">
+    <title>Lumière sur Elles - Redirection</title>
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/base.css">
+    <link rel="stylesheet" href="./src/css/components.css">
+    <script>
+        // Détection automatique de la langue du navigateur
+        const userLang = navigator.language || navigator.userLanguage;
+        const langCode = userLang.toLowerCase().substring(0, 2);
+
+        // Redirection selon la langue détectée
+        if (langCode === 'en') {
+            window.location.href = './en/index.html';
+        } else {
+            // Par défaut, redirection vers le français
+            window.location.href = './fr/index.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="redirect-container">
+        <h1>Lumière sur Elles / Light on Them</h1>
+        <p>Redirecting to your language... / Redirection vers votre langue...</p>
+        <p>
+            <a href="./fr/index.html" class="redirect-link--primary">Version française</a>
+        </p>
+        <p class="redirect-link-wrapper">
+            <a href="./en/index.html" class="redirect-link--secondary">English version</a>
+        </p>
+    </div>
+</body>
+
+</html>

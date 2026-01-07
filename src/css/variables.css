@@ -1,0 +1,89 @@
+/* ========================================
+   VARIABLES CSS - Lumière sur Elles
+   ======================================== */
+
+/* Variable collection */
+/* Couleur */
+:root {
+    /* Mode 1 */
+    /* color */
+    --background: #2e2938;
+    --fond: #121217;
+    --blanc: #ffffff;
+    --noir: #000000;
+    --violet: #8a38f5;
+}
+
+/* Typographie */
+:root {
+    /* Mode 1 */
+    /* Tailles de police */
+    --font-size-xs: 0.625rem;
+    --font-size-s: 0.75rem;
+    --font-size-m: 0.9375rem;
+    --font-size-l: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-xxl: 1.5625rem;
+
+    /* Familles de police */
+    --font-family-body: Newsreader;
+    --font-family-title: Newsreader;
+
+    /* Poids de police */
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
+
+    /* Hauteurs de ligne */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.8;
+
+    /* === ESPACEMENT === */
+    --spacing-xs: 0.25rem;
+    /* 4px */
+    --spacing-sm: 0.5rem;
+    /* 8px */
+    --spacing-md: 1rem;
+    /* 16px */
+    --spacing-lg: 1.5rem;
+    /* 24px */
+    --spacing-xl: 2rem;
+    /* 32px */
+    --spacing-2xl: 3rem;
+    /* 48px */
+    --spacing-3xl: 4rem;
+    /* 64px */
+
+    /* === LAYOUT === */
+    --max-width: 100%;
+
+    /* === BORDURES === */
+    --border-radius-sm: 8px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 16px;
+    --border-radius-xl: 24px;
+    --border-radius-full: 9999px;
+
+    --border-width: 2px;
+    --border-color: #5A5D72;
+
+    /* === OMBRES === */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+
+    /* === TRANSITIONS === */
+    --transition-fast: 150ms ease-in-out;
+    --transition-normal: 300ms ease-in-out;
+    --transition-slow: 500ms ease-in-out;
+
+    /* === Z-INDEX === */
+    --z-base: 1;
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal: 400;
+    --z-popover: 500;
+    --z-tooltip: 600;
+}

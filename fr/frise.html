@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frise chronologique des découvertes scientifiques faites par des femmes">
+    <title>Frise - Lumière sur Elles</title>
+    <link rel="stylesheet" href="../src/css/normalize.css">
+    <link rel="stylesheet" href="../src/css/variables.css">
+    <link rel="stylesheet" href="../src/css/base.css">
+    <link rel="stylesheet" href="../src/css/components.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <span class="header__logo-text">LUMIÈRE SUR ELLES</span>
+            </div>
+            <div class="header__right">
+                <nav class="header__lang" aria-label="Sélection de langue">
+                    <a href="../en/timeline.html" aria-label="Version anglaise" class="header__lang-link">
+                        <span class="header__lang-text">EN</span>
+                    </a>
+                </nav>
+                <button class="header__menu-toggle" aria-label="Ouvrir le menu">
+                    <img src="../assets/img/button-menu.avif" alt="Menu" class="header__menu-icon">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="menu__header">
+            <span class="menu__title">LUMIÈRE SUR ELLES</span>
+            <button class="menu__close" aria-label="Fermer le menu">
+                <img src="../assets/img/fermer-menu.avif" alt="Fermer" class="menu__close-icon">
+            </button>
+        </div>
+        <ul class="menu__nav">
+            <li class="menu__nav-item"><a href="index.html" class="menu__nav-link">Accueil</a></li>
+            <li class="menu__nav-item menu__nav-item--has-submenu">
+                <button class="menu__nav-link menu__nav-toggle">Articles</button>
+                <ul class="menu__submenu">
+                    <li class="menu__submenu-item"><a href="article-henrietta-leavitt.html"
+                            class="menu__submenu-link">Henrietta Swan Leavitt</a></li>
+                    <li class="menu__submenu-item"><a href="article-litterature.html" class="menu__submenu-link">Femmes
+                            de science dans la littérature</a></li>
+                    <li class="menu__submenu-item"><a href="article-theorie.html" class="menu__submenu-link">Théorie
+                            Période-Luminosité</a></li>
+                    <li class="menu__submenu-item"><a href="article-film.html" class="menu__submenu-link">Le film "Les
+                            Figures de l'ombre"</a></li>
+                    <li class="menu__submenu-item"><a href="article-livre.html" class="menu__submenu-link">Le livre "Les
+                            femmes et la science"</a></li>
+                </ul>
+            </li>
+            <li class="menu__nav-item"><a href="frise.html" class="menu__nav-link">Frise</a></li>
+            <li class="menu__nav-item"><a href="contact.html" class="menu__nav-link">Contact</a></li>
+            <li class="menu__nav-item"><a href="a-propos.html" class="menu__nav-link">À propos</a></li>
+            <li class="menu__nav-item"><a href="glossaire.html" class="menu__nav-link">Glossaire</a></li>
+            <li class="menu__nav-item"><a href="autres-projets.html" class="menu__nav-link">Autres projets</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content" class="main">
+        <h2 class="timeline__title">Elles ont fait la découverte. Ils ont eu la gloire. Voici quelques-unes des femmes
+            victimes de l'effet
+            Matilda.</h2>
+
+        <div class="carousel">
+            <button class="carousel__button carousel__button--prev" aria-label="Élément précédent">
+                <img src="../assets/img/fleche-gauche.avif" alt="">
+            </button>
+
+            <div class="carousel__container">
+                <div class="carousel__track">
+                    <article class="carousel__slide">
+                        <img src="../assets/img/ada-lovelace.avif" alt="Portrait d'Ada Lovelace" class="carousel__image"
+                            loading="lazy">
+                        <h3 class="carousel__date">1843 : Ada Lovelace</h3>
+                        <p class="carousel__text">
+                            Considérée comme la première programmeuse de l'histoire pour son algorithme.
+                            Son travail a longtemps été vu comme de simples notes sur la machine de son
+                            collaborateur,
+                            Charles Babbage.
+                        </p>
+                    </article>
+
+                    <article class="carousel__slide">
+                        <img src="../assets/img/henrietta-swan-leavitt.avif" alt="Portrait d'Henrietta Swan Leavitt"
+                            class="carousel__image" loading="lazy">
+                        <h3 class="carousel__date">1912 : Henrietta Swan Leavitt</h3>
+                        <p class="carousel__text">
+                            Elle découvre la loi période-luminosité des Céphéides, la clé pour mesurer
+                            l'univers.
+                            Son supérieur publie ses travaux et Edwin Hubble utilisera sa loi pour
+                            bâtir sa
+                            propre renommée.
+                        </p>
+                    </article>
+
+                    <article class="carousel__slide">
+                        <img src="../assets/img/lise-meitner.avif" alt="Portrait de Lise Meitner"
+                            class="carousel__image" loading="lazy">
+                        <h3 class="carousel__date">1938 : Lise Meitner</h3>
+                        <p class="carousel__text">
+                            Elle est la première à comprendre et nommer la fission nucléaire.
+                            Son collègue, Otto Hahn, publie leurs résultats en omettant son nom et reçoit seul le prix
+                            Nobel
+                            de chimie.
+                        </p>
+                    </article>
+
+                    <article class="carousel__slide">
+                        <img src="../assets/img/rosalind-franklin.avif" alt="Portrait de Rosalind Franklin"
+                            class="carousel__image" loading="lazy">
+                        <h3 class="carousel__date">1953 : Rosalind Franklin</h3>
+                        <p class="carousel__text">
+                            Elle produit la Photo 51, l'image cruciale qui prouve la structure en double hélice
+                            de
+                            l'ADN.
+                            Watson et Crick utilisent sa photo sans sa permission et reçoivent le prix Nobel.
+                        </p>
+                    </article>
+
+                    <article class="carousel__slide">
+                        <img src="../assets/img/marthe-gautier.avif" alt="Portrait de Marthe Gautier"
+                            class="carousel__image" loading="lazy">
+                        <h3 class="carousel__date">1958 : Marthe Gautier</h3>
+                        <p class="carousel__text">
+                            Elle découvre le chromosome surnuméraire responsable de la Trisomie 21.
+                            Son collègue, Jérôme Lejeune, annonce la découverte aux États-Unis en s'en attribuant
+                            entièrement la paternité.
+                        </p>
+                    </article>
+
+                    <article class="carousel__slide">
+                        <img src="../assets/img/candace-pert.avif" alt="Portrait de Candace Pert"
+                            class="carousel__image" loading="lazy">
+                        <h3 class="carousel__date">1978 : Candace Pert</h3>
+                        <p class="carousel__text">
+                            En tant qu'étudiante, elle a joué un rôle majeur dans la découverte du récepteur opiacé.
+                            Son directeur de thèse, Solomon Snyder, a reçu le prestigieux prix Lasker pour cette
+                            découverte,
+                            mais le nom de Candace Pert a été omis.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+            <button class="carousel__button carousel__button--next" aria-label="Élément suivant">
+                <img src="../assets/img/fleche-droite.avif" alt="">
+            </button>
+
+            <div class="carousel__indicators">
+                <button class="carousel__indicator carousel__indicator--active"
+                    aria-label="Aller à la slide 1"></button>
+                <button class="carousel__indicator" aria-label="Aller à la slide 2"></button>
+                <button class="carousel__indicator" aria-label="Aller à la slide 3"></button>
+                <button class="carousel__indicator" aria-label="Aller à la slide 4"></button>
+                <button class="carousel__indicator" aria-label="Aller à la slide 5"></button>
+                <button class="carousel__indicator" aria-label="Aller à la slide 6"></button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <h2 class="footer__title">Matthis Carnicer TDC1</h2>
+            <p class="footer__text">
+                <a href="mailto:matthis.carnicer@edu.univ-fcomte.fr"
+                    class="footer__link">matthis.carnicer@edu.univ-fcomte.fr</a>
+            </p>
+            <p class="footer__text">
+                projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département
+                <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
+                    class="footer__link" target="_blank" rel="noopener noreferrer">MMI
+                    de Montbéliard</a>
+            </p>
+        </div>
+        <div class="footer__logos">
+            <img src="../assets/img/logo-ULMP.avif" alt="Logo Université Marie & Louis Pasteur"
+                class="footer__logo-ulmp" height="60" loading="lazy">
+            <img src="../assets/img/logommi.avif" alt="Logo MMI" class="footer__logo-mmi" height="60" loading="lazy">
+        </div>
+    </footer>
+
+    <script src="../src/js/menu.js"></script>
+    <script src="../src/js/carousel.js"></script>
+</body>
+
+</html>
