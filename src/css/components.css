@@ -1,8 +1,5 @@
-/* ========================================
-   COMPOSANTS - Méthodologie BEM
-   ======================================== */
 
-/* === PAGE DE REDIRECTION === */
+/* PAGE DE REDIRECTION */
 
 .redirect-container {
     display: flex;
@@ -27,7 +24,7 @@
     color: var(--gris);
 }
 
-/* === HEADER === */
+/* HEADER */
 
 .header {
     position: sticky;
@@ -82,7 +79,7 @@
     display: block;
 }
 
-/* === BOUTON MENU BURGER === */
+/* BOUTON MENU BURGER */
 
 .header__menu-toggle {
     background: none;
@@ -97,7 +94,7 @@
     display: block;
 }
 
-/* === MENU PRINCIPAL === */
+/* MENU PRINCIPAL */
 
 .menu {
     position: fixed;
@@ -221,7 +218,7 @@
     font-size: var(--font-size-m);
 }
 
-/* === FOOTER === */
+/* FOOTER */
 
 .footer {
     background-color: var(--background);
@@ -274,7 +271,7 @@
     width: auto;
 }
 
-/* === MAIN CONTENT === */
+/* MAIN CONTENT */
 
 .main {
     min-height: calc(100vh - 120px);
@@ -287,7 +284,7 @@
     margin-top: var(--spacing-xl);
 }
 
-/* === INTRO TEXT === */
+/* INTRO TEXT */
 
 .intro-text {
     padding: var(--spacing-lg) var(--spacing-md);
@@ -301,7 +298,7 @@
     margin: 0;
 }
 
-/* === CARD === */
+/* CARD */
 
 .card {
     background-color: #ffffff;
@@ -314,7 +311,6 @@
     align-items: center;
 }
 
-/* Coins arrondis en diagonale alternés */
 .card:nth-child(odd) {
     border-top-right-radius: var(--border-radius-lg);
     border-bottom-left-radius: var(--border-radius-lg);
@@ -362,7 +358,7 @@
     align-self: flex-start;
 }
 
-/* === BUTTON === */
+/* BUTTON  */
 
 .button {
     display: inline-block;
@@ -386,7 +382,7 @@
     background-color: var(--blanc);
 }
 
-/* === FORM === */
+
 
 .form {
     border-radius: var(--border-radius-lg);
@@ -458,7 +454,7 @@
     background-color: var(--blanc);
 }
 
-/* === HERO === */
+/* HERO */
 
 .hero {
     position: relative;
@@ -521,7 +517,7 @@
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* === TIMELINE / CAROUSEL === */
+/* CAROUSEL */
 
 .timeline__title {
     font-family: var(--font-family-title);
@@ -697,7 +693,7 @@
     line-height: var(--line-height-relaxed);
 }
 
-/* === GLOSSARY === */
+/* GLOSSARY */
 
 .glossary {
     max-width: 393px;
@@ -743,7 +739,7 @@
     margin: 0;
 }
 
-/* === GALLERY === */
+/* GALLERY */
 
 .gallery {
     display: grid;
@@ -775,7 +771,7 @@
     font-size: var(--font-size-s);
 }
 
-/* === ARTICLE === */
+/* ARTICLE */
 
 .article {
     padding: var(--spacing-md);
@@ -898,7 +894,7 @@
     font-weight: var(--font-weight-medium);
 }
 
-/* === VIDEO === */
+/* VIDEO */
 
 .video {
     position: relative;
@@ -922,7 +918,6 @@
     text-align: center;
 }
 
-/* === FIGURE === */
 
 .figure {
     margin: var(--spacing-lg) 0;
@@ -945,7 +940,7 @@
     text-align: center;
 }
 
-/* === ABOUT PAGE === */
+/* ABOUT PAGE */
 
 .about {
     max-width: 393px;
@@ -1029,7 +1024,7 @@
     background-color: var(--blanc);
 }
 
-/* === AUTRES PROJETS === */
+/* AUTRES PROJETS */
 
 .autres-projets__title {
     margin-top: var(--spacing-lg);

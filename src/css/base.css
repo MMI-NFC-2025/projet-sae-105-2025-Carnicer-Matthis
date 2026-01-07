@@ -1,6 +1,3 @@
-/* ========================================
-   STYLES DE BASE
-   ======================================== */
 
 *,
 *::before,
@@ -142,7 +139,7 @@ button {
     padding: 0;
 }
 
-/* === UTILITAIRES ACCESSIBILITÉ === */
+
 
 .sr-only {
     position: absolute;
@@ -156,14 +153,13 @@ button {
     border-width: 0;
 }
 
-/* === FOCUS VISIBLE === */
+
 
 :focus-visible {
     outline: 2px solid var(--violet);
     outline-offset: 2px;
 }
 
-/* Skip to main content */
 .skip-link {
     position: absolute;
     top: -100px;
